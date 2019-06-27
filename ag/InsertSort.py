@@ -1,4 +1,5 @@
 import random
+#插入排序
 
 def InsertionSort(A, n):
     for j in range(1, n):
@@ -18,8 +19,7 @@ for i in range(0, s):
     A.append(random.randint(0, 1000))
 
 A = InsertionSort(A, len(A))
-#key = random.choice(A)
 
 print "Now displaying InsertSort."
 print A
-#print key
+
