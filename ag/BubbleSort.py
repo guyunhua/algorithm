@@ -1,5 +1,7 @@
+# -*- coding:utf8 -*-
 import random
 
+# 冒泡排序 每次循环把最大的数往后挪
 def BubbleSort(A, n):
     for i in range(0, n):
        for j in range(0, n - i - 1):

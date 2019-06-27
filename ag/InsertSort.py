@@ -1,5 +1,6 @@
+# -*- coding:utf8 -*-
 import random
-#插入排序
+#插入排序 每次遍历 将当前值插入到前面的列表中
 
 def InsertionSort(A, n):
     for j in range(1, n):
